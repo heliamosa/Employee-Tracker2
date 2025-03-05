@@ -5,7 +5,7 @@
   "main": "dist/index.js",
   "type": "module",
   "scripts": {
-    "start": "node --loader ts-node/esm dist/Lib/prompts.js",
+  "start": "npm run build && node dist/Lib/prompts.js",
     "build": "tsc",
     "dev": "NODE_OPTIONS='--loader ts-node/esm' ts-node src/Lib/prompts.ts"
   },

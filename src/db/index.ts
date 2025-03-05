@@ -1,7 +1,7 @@
-import { mainMenu } from '../Lib/prompts.js';
+// // import { mainMenu } from '../Lib/prompts.js';
 
-console.log('Welcome to the Employee Tracker!');
+// console.log('Welcome to the Employee Tracker!');
 
-(async () => {
-  await mainMenu();
-})();
+// (async () => {
+//   await mainMenu();
+// })();

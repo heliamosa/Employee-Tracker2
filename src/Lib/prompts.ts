@@ -3,7 +3,7 @@ import { pool, connectToDb } from '../db/connection.js';
 
 await connectToDb();
 
-async function mainMenu() {
+ async function mainMenu() {
   const { action } = await inquirer.prompt([
     {
       type: 'list',
